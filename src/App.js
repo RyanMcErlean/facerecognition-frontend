@@ -87,7 +87,7 @@ class App extends Component {
       .then(response => {
         console.log('hi', response)
         if (response) {
-          fetch('https://glacial-everglades-98384.herokuapp.com:3000/image', {
+          fetch('https://glacial-everglades-98384.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
