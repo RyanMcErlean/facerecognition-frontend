@@ -8,7 +8,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
         {'Step 1: Search for an image of a face on Google Images'}
       </p>
       <p className='f3'>
-        {'Step 2: Open the image in a new tab as a full image. (Make sure its only the image and not a website).'}
+        {'Step 2: Open the image in a new tab as a full image. (Make sure it is only the image and not a website).'}
       </p>
       <p className='f3'>
         {'Step 3: Copy the image link and paste it below, then click detect. If the link is to an image, it should appear below with face recognition.'}
